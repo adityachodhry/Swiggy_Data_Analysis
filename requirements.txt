@@ -1,0 +1,11 @@
+pandas
+streamlit
+plotly
+seaborn
+matplotlib
+numpy
+pymongo
+dnspython
+requests
+gunicorn
+Flask
