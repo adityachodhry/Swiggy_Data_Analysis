@@ -6,7 +6,7 @@ db_config = {
     "host": "localhost",
     "user": "root",  
     "password": "12345",  
-    "database": "practice",
+    "database": "restaurant_db",
 }
 
 url = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=22.7195687&lng=75.8577258&restaurantId=84070&catalog_qa=undefined&submitAction=ENTER"
@@ -59,7 +59,7 @@ if response.status_code == 200:
         json.dump(extracted_items, outfile, indent=4, ensure_ascii=False)
 
     print("Extracted data saved to extracted_swiggy_menu.json")
-
+    
 
     # Insert Data into MySQL Database
     try:
