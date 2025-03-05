@@ -54,7 +54,7 @@ if response.status_code == 200:
     print("Extracted data saved to extracted_swiggy_menu.json")
 
     df = pd.DataFrame(extracted_items)
-    df.to_csv("swiggy_menu.csv", index=False)
+    df.to_csv("restaurant_menu.csv", index=False)
     
 
 else:
