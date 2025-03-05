@@ -1,5 +1,6 @@
 import requests
 import json
+import pandas as pd
 
 url = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=22.7195687&lng=75.8577258&restaurantId=84070&catalog_qa=undefined&submitAction=ENTER"
 
@@ -47,10 +48,13 @@ if response.status_code == 200:
     except Exception as e:
         print(f"Error extracting data: {e}")
 
-    with open("extracted_swiggy_menu.json", "w", encoding="utf-8") as outfile:
-        json.dump(extracted_items, outfile, indent=4, ensure_ascii=False)
+    # with open("extracted_swiggy_menu.json", "w", encoding="utf-8") as outfile:
+    #     json.dump(extracted_items, outfile, indent=4, ensure_ascii=False)
 
     print("Extracted data saved to extracted_swiggy_menu.json")
+
+    df = pd.DataFrame(extracted_items)
+    df.to_csv("swiggy_menu.csv", index=False)
     
 
 else:

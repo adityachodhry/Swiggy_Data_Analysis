@@ -1,0 +1,172 @@
+name,price,rating,rating_count
+Calcutta Roll ( Bangali Roll),210.0,4.3,220
+Cheese Roll,169.0,4.2,403
+Green Salad,59.0,4.4,768
+Lassi,59.0,4.2,4020
+Veg Noodles,228.0,4.2,534
+Boondi Raita,169.0,4.6,404
+Veg Raita,169.0,4.3,64
+Tomato Soup,152.0,4.4,168
+Hot & Sour Soup,152.0,4.2,108
+Manchow Soup,152.0,3.7,130
+Butter Paneer Masala,290.0,4.4,10879
+Mattar Paneer,275.0,4.3,8065
+Kadai Paneer,295.0,4.3,7898
+Paneer Punjabi,305.0,4.2,1078
+Paneer Angara,375.0,3.9,5
+Today Special Paneer,365.0,4.2,562
+Paneer 65,310.0,3.8,362
+Paneer Dhoom,360.0,4.4,60
+Paneer Cheese Masala,360.0,4.0,23
+Paneer Chatpata,290.0,4.2,6168
+Paneer Handi,310.0,4.0,462
+Paneer Bhurji,290.0,4.0,239
+Paneer Makhanwala,315.0,4.3,270
+Paneer Hyderabadi,315.0,4.1,321
+Mushroom Paneer,299.0,4.2,344
+Shahi Paneer,290.0,4.1,2737
+Paneer Tikka Masala,315.0,4.3,707
+Paneer Pasanda,315.0,3.7,194
+Paneer Kolhapuri,315.0,4.1,503
+Paneer Dildar,315.0,3.8,241
+Paneer Mirchi,315.0,3.9,38
+Palak Paneer,275.0,4.1,1372
+Paneer Peshawari,315.0,3.1,61
+Sev Paneer,255.0,4.2,404
+Paneer Do pyaza,280.0,4.3,203
+Paneer Pudina,315.0,5.0,21
+Paneer Namkeen,315.0,3.9,25
+Naya Paneer,315.0,2.8,18
+Paneer Korma,280.0,3.9,99
+Paneer Mastana,315.0,3.3,21
+Paneer Pappu,299.0,2.9,13
+Paneer 25,280.0,4.3,45
+Aloo Paneer,240.0,4.3,17
+Shahi Methi,310.0,4.5,2850
+Veg Family ( Bucket Veg) ,335.0,4.4,138
+Veg Patiyala,325.0,4.4,505
+Methi Mattar Malai,265.0,4.2,371
+Special Dum Aloo,270.0,4.4,303
+Veg Manchurian,255.0,4.1,800
+Sev Masala,240.0,4.3,1264
+Mushroom Masala,270.0,4.0,367
+Veg Jalfrezi,270.0,3.4,97
+Veg Kolhapuri,270.0,4.0,206
+Kaju Singapuri,279.0,4.2,91
+Mixed Veg,270.0,3.6,552
+Bhindi Masala,240.0,4.1,586
+Navratan Korma,270.0,3.3,163
+Kaju Milan,299.0,4.3,50
+Veg Jaipuri,270.0,4.3,84
+Chana Masala,240.0,4.3,729
+Kaju Kandhari,296.0,2.2,50
+Aloo Gobi,240.0,4.5,199
+Aloo Chole,240.0,4.3,162
+Navratan Curry,280.0,4.1,72
+Kashmiri Chana,270.0,4.8,24
+Aloo Jeera,240.0,3.8,116
+Aloo Mattar,240.0,4.9,130
+Bhindi Do Pyaza,240.0,4.2,128
+Shahi Korma,270.0,4.3,11
+Aloo 65,255.0,3.9,53
+Aloo Palak,240.0,4.9,15
+Veg Makhanwala,270.0,3.9,52
+Mawa Mattar,265.0,4.9,26
+Aloo Methi,240.0,4.2,77
+Shahi Palak,270.0,5.0,25
+Stuffed Capsicum,270.0,4.3,16
+Tomato Masala,255.0,5.0,17
+Stuffed Tomato,255.0,3.6,60
+Green Peas,240.0,5.0,27
+Aloo Gobi 65,240.0,4.7,78
+Aloo Fry,240.0,4.2,25
+Chana Rost,240.0,,
+Aloo Do Pyaza,240.0,2.3,43
+Plain Palak,240.0,3.6,12
+Tandoori Roti Butter,20.0,4.2,6306
+Aloo Paratha,80.0,4.2,1912
+Tawa Roti,18.0,4.2,8657
+Paneer Paratha,90.0,4.3,1324
+Tawa Butter roti,20.0,4.2,901
+Basket Roti,322.0,4.4,103
+Tandoori Roti,18.0,4.2,8483
+Garlic Naan,90.0,4.2,1778
+Missi Roti,45.0,4.3,1376
+Butter Naan,80.0,4.3,6143
+Stuffed Naan,90.0,4.3,1426
+Sev Paratha,80.0,4.4,323
+Gobi Paratha,80.0,4.5,281
+Kashmiri Naan,110.0,4.3,259
+Laccha Paratha,70.0,4.2,1072
+Cheese Naan ,110.0,4.2,56
+Methi Paratha,80.0,4.4,217
+Mixed Paratha,90.0,4.0,188
+Tawa Paratha,65.0,4.4,754
+Plain Naan,65.0,4.3,1064
+Stuffed Paratha,80.0,4.3,376
+Tawa Masala Paratha,85.0,4.4,19
+Namkeen Paratha,80.0,4.4,119
+Butter Kulcha,80.0,4.7,234
+Plain Kulcha,70.0,4.9,72
+Special Butter Khichdi,165.0,4.3,7866
+Jeera Rice,150.0,4.2,2638
+Veg Biryani,215.0,4.2,4155
+Khichdi,230.0,4.0,463
+Special Punjabi Khichdi,265.0,,
+Butter Khichdi Hari Mirchi,145.0,4.1,221
+Shahi Pulao,215.0,4.3,334
+Fried Rice,220.0,4.5,358
+Veg Pulao,215.0,4.3,327
+Kashmiri Pulao,215.0,4.6,496
+Mixed Jeera Rice Dal,230.0,4.2,228
+Moti Pulao,240.0,4.6,100
+Masala Rice,199.0,4.5,213
+Mixed Rice Dal,220.0,4.1,72
+Plain Rice ,140.0,4.4,473
+Butter Kofta,290.0,4.4,84
+Malai Kofta,270.0,4.0,2093
+Guru Kripa Special Kofta,270.0,4.3,1511
+Veg Kofta,270.0,4.0,195
+Navaratan Kofta,270.0,3.9,81
+Chhota Ballu ( Punjabi Kofta ),255.0,4.5,235
+Masala Kofta,270.0,4.1,107
+Palak Kofta,255.0,4.8,46
+Nargis Kofta,270.0,2.4,62
+Kaju Paneer,310.0,4.2,5140
+Kaju Curry,290.0,4.2,4510
+Kaju Malai Paneer,360.0,4.2,61
+Kaju Paneer Makhhanwala,349.0,4.2,69
+Kaju Makhana Paneer,335.0,4.7,242
+Dal Fry,195.0,4.3,4387
+Special Dal Butter Tadka,210.0,4.1,1240
+Special Dal Makhani,230.0,4.3,2484
+Dal Makhani Kabila,230.0,4.1,345
+ Dal Maharani,230.0,4.6,8
+Dal Hari Mirch,195.0,4.6,719
+Special Thali Lunch / Dinner,299.0,4.4,1081
+Boondi Raita,169.0,4.6,404
+Fruit Raita,169.0,4.3,259
+Veg Raita,169.0,4.3,64
+Pineapple Raita,169.0,2.8,37
+Onion Raita,169.0,3.8,10
+Curd,59.0,4.4,465
+Sweet Corn Soup,230.0,2.9,5
+Lemon Coriander Soup,230.0,3.8,5
+Tomato Soup,152.0,4.4,168
+Hot & Sour Soup,152.0,4.2,108
+Manchow Soup,152.0,3.7,130
+Fruit Custard,169.0,4.3,857
+Rasmalai,169.0,3.9,909
+Gulab Jamun [2 Pieces],101.0,4.5,5
+Rabdi,186.0,4.0,90
+Lassi,59.0,4.2,4020
+Mineral Water,21.0,4.2,202
+Fried Masala Papad,51.0,4.2,468
+Fried Papad,42.0,4.2,233
+Dry Masala Papad,51.0,4.1,85
+Dry Papad,33.0,4.2,242
+Special Salad,85.0,3.5,85
+Green Salad,59.0,4.4,768
+Onion Salad,17.0,4.4,257
+Veg Noodles,228.0,4.2,534
+Papad Roll,296.0,3.3,8
