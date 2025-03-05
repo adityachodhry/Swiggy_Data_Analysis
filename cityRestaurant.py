@@ -57,7 +57,7 @@ def store_in_database(data):
             host="localhost",
             user="root",      # Replace with your MySQL username
             password="12345",  # Replace with your MySQL password
-            database="restaurant_db"
+            database=""
         )
         cursor = connection.cursor()
 
