@@ -59,6 +59,7 @@ if response.status_code == 200:
         json.dump(extracted_items, outfile, indent=4, ensure_ascii=False)
 
     print("Extracted data saved to extracted_swiggy_menu.json")
+    
 
     # Insert Data into MySQL Database
     try:
