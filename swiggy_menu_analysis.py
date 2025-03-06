@@ -187,19 +187,33 @@ if restaurant_dict:
         st.subheader("📊 Price Range of Dishes")
 
         # Calculate dynamic boxplot insights
-        q1 = df["price"].quantile(0.25)
-        q3 = df["price"].quantile(0.75)
-        min_price = df["price"].min()
-        max_price = df["price"].max()
-        median_price = df["price"].median()
+        q1 = df["price"].quantile(0.25)  # 25th percentile (Lower Quartile)
+        q3 = df["price"].quantile(0.75)  # 75th percentile (Upper Quartile)
+        min_price = df["price"].min()  # Minimum price
+        max_price = df["price"].max()  # Maximum price
+        median_price = df["price"].median()  # Median price (50th percentile)
 
+        # Create Box Plot
         fig, ax = plt.subplots(figsize=(10, 5))
         sns.boxplot(x=df["price"], color="lightgreen", ax=ax)
         ax.set_title("Dish Price Range")
         ax.set_xlabel("Price (INR)")
         st.pyplot(fig)
 
-        st.write(f"💰 **Insight**: The price range is widely spread from **₹{min_price:.2f} to ₹{max_price:.2f}**, with most dishes priced between **₹{q1:.2f} and ₹{q3:.2f}**. The median price is **₹{median_price:.2f}**, showing that the majority of dishes fall within an affordable range.")
+        # ---- Insights ----
+        st.write(f"""
+        💰 **Insights:**  
+        - **X-Axis (Price in INR)** → Represents the **price distribution** of dishes in Indian Rupees (₹).  
+        - **Box Plot Breakdown:**  
+        - **Minimum Price (Left Whisker)** → ₹{min_price:.2f} (Cheapest dish).  
+        - **Lower Quartile (Q1 - 25%)** → ₹{q1:.2f} (25% of dishes are priced below this).  
+        - **Median Price (Q2 - 50%)** → ₹{median_price:.2f} (The middle value where half of the dishes are below and half are above).  
+        - **Upper Quartile (Q3 - 75%)** → ₹{q3:.2f} (75% of dishes fall below this price).  
+        - **Maximum Price (Right Whisker)** → ₹{max_price:.2f} (Most expensive dish).  
+        - The majority of dishes are priced between **₹{q1:.2f} and ₹{q3:.2f}**, indicating that most menu items are in a mid-range pricing bracket.  
+        - **Outliers** (if present) appear as dots beyond the whiskers, representing exceptionally high-priced or low-priced dishes.  
+        - **Key Takeaway:** While some high-end dishes exist, the median price suggests that most dishes remain affordable, making them accessible to a larger customer base.  
+        """)
 
         # ---- USER SELECTION ----
         st.subheader("🔍 Filter Dishes by Price Range")
