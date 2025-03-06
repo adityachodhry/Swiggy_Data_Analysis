@@ -139,6 +139,7 @@ if restaurant_dict:
         - The dishes are priced between **₹{min_price:.2f} and ₹{max_price:.2f}**, with a peak around **₹{median_price:.2f}**.  
         - Most dishes are priced in the range of **₹{low_percentile:.2f} - ₹{high_percentile:.2f}**, indicating a **mid-range pricing trend**.  
         """)
+        
 
         # 2. Top 10 Rated Dishes
         st.subheader("🌟 Top 10 Rated Dishes")
