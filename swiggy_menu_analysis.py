@@ -132,7 +132,13 @@ if restaurant_dict:
         ax.set_ylabel("Count")
         st.pyplot(fig)
 
-        st.write(f"📊 **Insight**: The dishes are priced between **₹{min_price:.2f} and ₹{max_price:.2f}**, with a peak around **₹{median_price:.2f}**. Most dishes are priced in the range of **₹{low_percentile:.2f} - ₹{high_percentile:.2f}**, indicating a mid-range pricing trend.")
+        st.write(f"""
+        📊 **Insight**:  
+        - **X-Axis (Price in INR)** → Represents the **price** of the dishes in Indian Rupees (₹).  
+        - **Y-Axis (Count)** → Represents the **number of dishes** that fall within each price range.  
+        - The dishes are priced between **₹{min_price:.2f} and ₹{max_price:.2f}**, with a peak around **₹{median_price:.2f}**.  
+        - Most dishes are priced in the range of **₹{low_percentile:.2f} - ₹{high_percentile:.2f}**, indicating a **mid-range pricing trend**.  
+        """)
 
         # 2. Top 10 Rated Dishes
         st.subheader("🌟 Top 10 Rated Dishes")
