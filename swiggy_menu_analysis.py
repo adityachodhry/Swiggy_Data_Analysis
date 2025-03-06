@@ -139,7 +139,7 @@ if restaurant_dict:
         - The dishes are priced between **₹{min_price:.2f} and ₹{max_price:.2f}**, with a peak around **₹{median_price:.2f}**.  
         - Most dishes are priced in the range of **₹{low_percentile:.2f} - ₹{high_percentile:.2f}**, indicating a **mid-range pricing trend**.  
         """)
-        
+
 
         # 2. Top 10 Rated Dishes
         st.subheader("🌟 Top 10 Rated Dishes")
@@ -150,7 +150,16 @@ if restaurant_dict:
         ax.set_xlabel("Rating")
         ax.set_ylabel("Dish Name")
         st.pyplot(fig)
-        st.write("🌟 **Observation**: The highest-rated dishes are not necessarily the most expensive ones, indicating customer preference based on taste rather than price.")
+        
+        st.write(f"""
+        🌟 **Insights:**  
+        - **X-Axis (Rating)** → Represents the **customer ratings** given to the dishes (on a scale of 1 to 5).  
+        - **Y-Axis (Dish Name)** → Represents the **top 10 dishes** with the highest ratings.  
+        - The chart displays the **10 highest-rated dishes** based on customer feedback.  
+        - **Observation:** The highest-rated dishes are **not necessarily the most expensive ones**, indicating that customer preferences are driven more by **taste, quality, and experience rather than price**.  
+        - Some highly rated dishes might be affordable, suggesting that **value for money plays a key role** in customer satisfaction.  
+        - A dish with a **high rating and a significant number of reviews** is a strong indicator of customer trust and preference.  
+        """)
 
         # 3. Price vs Rating Relationship
         st.subheader("💵 Price vs Rating Relationship")
