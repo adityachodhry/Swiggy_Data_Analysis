@@ -183,6 +183,7 @@ if restaurant_dict:
         - This insight helps restaurants understand that **customer perception and quality play a more significant role** in ratings than just the price.  
         """)
 
+
         # 4. Dish Price Range (Box Plot)
         st.subheader("📊 Price Range of Dishes")
 
