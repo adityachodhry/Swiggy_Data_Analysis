@@ -163,13 +163,25 @@ if restaurant_dict:
 
         # 3. Price vs Rating Relationship
         st.subheader("💵 Price vs Rating Relationship")
+
         fig, ax = plt.subplots(figsize=(8, 5))
         sns.scatterplot(x="price", y="rating", data=df, color="red", ax=ax)
         ax.set_title("Price vs Rating")
         ax.set_xlabel("Price (INR)")
         ax.set_ylabel("Rating")
         st.pyplot(fig)
-        st.write("🔍 **Analysis**: There is no strong correlation between price and rating. Expensive dishes do not always have higher ratings.")
+
+        # ---- Insights ----
+        st.write(f"""
+        🔍 **Insights:**  
+        - **X-Axis (Price in INR)** → Represents the **price of dishes** in Indian Rupees (₹).  
+        - **Y-Axis (Rating)** → Represents the **customer rating** (on a scale of 1 to 5).  
+        - Each red dot represents a **dish**, where its **position on the X-axis shows its price** and **position on the Y-axis shows its rating**.  
+        - **Observation:** The distribution of points does not show a clear upward or downward trend, indicating **no strong correlation** between price and rating.  
+        - Some **low-priced dishes have high ratings**, suggesting that customers value **affordable and tasty food** over expensive options.  
+        - **Expensive dishes do not always have higher ratings**, implying that **pricing alone does not determine customer satisfaction**.  
+        - This insight helps restaurants understand that **customer perception and quality play a more significant role** in ratings than just the price.  
+        """)
 
         # 4. Dish Price Range (Box Plot)
         st.subheader("📊 Price Range of Dishes")
