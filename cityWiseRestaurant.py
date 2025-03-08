@@ -3,7 +3,7 @@ import json
 from city_lat_lon import get_lat_lon  
 
 
-def primaryRestaurantId (latitude, longitude, primaryRestaurantId):
+def restaurantId (latitude, longitude, primaryRestaurantId):
 
     cityName = "Indore"
     restaurantName = "Gurukripa Restaurant - Sarwate"

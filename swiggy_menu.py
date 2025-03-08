@@ -1,6 +1,6 @@
 import requests
 import json
-
+from cityWiseRestaurant import restaurantId
 
 
 url = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=22.7195687&lng=75.8577258&restaurantId=84070&catalog_qa=undefined&submitAction=ENTER"
