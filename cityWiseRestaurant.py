@@ -2,13 +2,13 @@ import requests
 import json
 from city_lat_lon import get_lat_lon  
 
-def restaurantId():
-    cityName = "Indore"
-    restaurantName = "Gurukripa Restaurant - Sarwate"
+def restaurantId(city_name, restaurant_name):
+    # city_name = "Indore"
+    # restaurant_name = "Gurukripa Restaurant - Sarwate"
 
-    latitude, longitude = get_lat_lon(cityName)
+    latitude, longitude = get_lat_lon(city_name)
 
-    url = f"https://www.swiggy.com/dapi/restaurants/search/suggest?lat={latitude}&lng={longitude}&str={restaurantName.replace(' ', '%20')}&trackingId=undefined&includeIMItem=true"
+    url = f"https://www.swiggy.com/dapi/restaurants/search/suggest?lat={latitude}&lng={longitude}&str={restaurant_name.replace(' ', '%20')}&trackingId=undefined&includeIMItem=true"
 
     headers = {
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36'
