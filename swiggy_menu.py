@@ -27,7 +27,6 @@ if response.status_code == 200:
     extracted_items = []
 
     try:
-        # Navigate to the correct path
         menu_sections = (
             data.get("data", {})
             .get("cards", [])[4]  
@@ -59,37 +58,6 @@ if response.status_code == 200:
         json.dump(extracted_items, outfile, indent=4, ensure_ascii=False)
 
     print("Extracted data saved to extracted_swiggy_menu.json")
-    
-
-    # Insert Data into MySQL Database
-    try:
-        connection = mysql.connector.connect(**db_config)
-        cursor = connection.cursor()
-
-        # SQL Query to Insert Data
-        insert_query = """
-        INSERT INTO menu_items (name, price, rating, rating_count)
-        VALUES (%s, %s, %s, %s)
-        """
-
-        # Insert each item into the database
-        for item in extracted_items:
-            cursor.execute(insert_query, (
-                item["name"],
-                item["price"],
-                item["rating"] if item["rating"] is not None else None,
-                item["rating_count"] if item["rating_count"] is not None else None
-            ))
-
-        connection.commit()  # Commit the transaction
-        print("Data inserted into MySQL database successfully!")
-
-    except mysql.connector.Error as err:
-        print(f"Error: {err}")
-
-    finally:
-        cursor.close()
-        connection.close()
 
 else:
     print(f"Failed to fetch data. Status Code: {response.status_code}")
