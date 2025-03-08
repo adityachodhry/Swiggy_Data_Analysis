@@ -2,8 +2,9 @@ import requests
 import json
 from cityWiseRestaurant import restaurantId
 
+lat, long, primaryRestaurantId = restaurantId()
 
-url = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=22.7195687&lng=75.8577258&restaurantId=84070&catalog_qa=undefined&submitAction=ENTER"
+url = f"https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat={lat}&lng={long}&restaurantId={primaryRestaurantId}&catalog_qa=undefined&submitAction=ENTER"
 
 
 headers = {
