@@ -2,8 +2,7 @@ import requests
 import json
 from city_lat_lon import get_lat_lon  
 
-def restaurantId (latitude, longitude, primaryRestaurantId):
-
+def restaurantId():
     cityName = "Indore"
     restaurantName = "Gurukripa Restaurant - Sarwate"
 
@@ -18,12 +17,7 @@ def restaurantId (latitude, longitude, primaryRestaurantId):
     response = requests.get(url, headers=headers)
 
     if response.status_code == 200:
-        data = response.json() 
-
-        with open('cityRaw.json', 'w', encoding='utf-8') as json_file:
-            json.dump(data, json_file, indent=4, ensure_ascii=False)
-
-        print("Data saved to cityRaw.json successfully!")
+        data = response.json()
 
         restaurantIdDetails = data.get('data', {}).get('suggestions', [])
 
@@ -37,9 +31,8 @@ def restaurantId (latitude, longitude, primaryRestaurantId):
                     primaryRestaurantId = metadata.get("data", {}).get("primaryRestaurantId")
 
                     if primaryRestaurantId:
-                        print(f"Primary Restaurant ID (First Entry): {primaryRestaurantId}")
-                    else:
-                        print("Primary Restaurant ID not found in metadata.")
+                        print(f"Primary Restaurant ID: {primaryRestaurantId}")
+                        return latitude, longitude, primaryRestaurantId  
 
                 except json.JSONDecodeError:
                     print("Error: Could not decode metadata JSON.")
@@ -48,6 +41,5 @@ def restaurantId (latitude, longitude, primaryRestaurantId):
         else:
             print("No restaurant suggestions found.")
 
-    else:
-        print(f"Error: HTTP {response.status_code} - {response.text}")
-
+    print(f"Error: HTTP {response.status_code} - {response.text}")
+    return None, None, None  

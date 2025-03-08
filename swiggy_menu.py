@@ -1,11 +1,14 @@
 import requests
 import json
-from cityWiseRestaurant import restaurantId
+from cityWiseRestaurant import restaurantId 
 
 lat, long, primaryRestaurantId = restaurantId()
 
-url = f"https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat={lat}&lng={long}&restaurantId={primaryRestaurantId}&catalog_qa=undefined&submitAction=ENTER"
+if not primaryRestaurantId:
+    print("Failed to fetch restaurant details. Exiting...")
+    exit()
 
+url = f"https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat={lat}&lng={long}&restaurantId={primaryRestaurantId}&catalog_qa=undefined&submitAction=ENTER"
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
@@ -49,7 +52,7 @@ if response.status_code == 200:
     except Exception as e:
         print(f"Error extracting data: {e}")
 
-    with open("extracted_swiggy_menu.json", "w", encoding="utf-8") as outfile:
+    with open("swiggy_menu.json", "w", encoding="utf-8") as outfile:
         json.dump(extracted_items, outfile, indent=4, ensure_ascii=False)
 
     print("Extracted data saved to extracted_swiggy_menu.json")
