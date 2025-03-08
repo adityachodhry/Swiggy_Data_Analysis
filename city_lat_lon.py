@@ -9,7 +9,7 @@ def get_lat_lon(city_name):
         
         if response.status_code != 200:
             print(f"Error: HTTP {response.status_code}")
-            print("Response:", response.text)  # Print error response
+            print("Response:", response.text)  
             return None
 
         data = response.json()
@@ -29,10 +29,10 @@ def get_lat_lon(city_name):
         print("Invalid JSON response")
         return None
 
-city = "Mumbai"
-latitude, longitude = get_lat_lon(city)
+# city = "Mumbai"
+# latitude, longitude = get_lat_lon(city)
 
-if latitude and longitude:
-    print(f"Latitude: {latitude}, Longitude: {longitude}")
-else:
-    print("Failed to retrieve location.")
+# if latitude and longitude:
+#     print(f"Latitude: {latitude}, Longitude: {longitude}")
+# else:
+#     print("Failed to retrieve location.")
