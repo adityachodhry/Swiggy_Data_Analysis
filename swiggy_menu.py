@@ -1,8 +1,12 @@
 import requests
 import json
+from city_lat_lon import get_lat_lon
 from cityWiseRestaurant import restaurantId
 
-lat, long, primaryRestaurantId = restaurantId()
+city_name = "indore"
+
+primaryRestaurantId = restaurantId()
+lat, long = get_lat_lon(city_name)
 
 url = f"https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat={lat}&lng={long}&restaurantId={primaryRestaurantId}&catalog_qa=undefined&submitAction=ENTER"
 
