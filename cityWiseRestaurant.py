@@ -2,7 +2,6 @@ import requests
 import json
 from city_lat_lon import get_lat_lon  
 
-
 def restaurantId (latitude, longitude, primaryRestaurantId):
 
     cityName = "Indore"
