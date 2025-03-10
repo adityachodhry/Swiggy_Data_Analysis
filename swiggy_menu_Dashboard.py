@@ -6,7 +6,6 @@ import seaborn as sns
 import streamlit as st
 from cityWiseRestaurant import restaurantId
 
-
 st.sidebar.header("Restaurant Selection 🍽")
 city_name = st.sidebar.text_input("Enter City Name", "Indore")
 restaurant_name = st.sidebar.text_input("Enter Restaurant Name", "Gurukripa Restaurant - Sarwate")
