@@ -69,7 +69,7 @@ if response.status_code == 200:
 
     print("Extracted data saved to extracted_swiggy_menu.json")
 
-     # Convert to DataFrame
+
     df = pd.DataFrame(extracted_items)
     df["rating"] = pd.to_numeric(df["rating"], errors="coerce")
     df = df.dropna()  # Remove rows with missing ratings
