@@ -72,7 +72,7 @@ if response.status_code == 200:
 
     df = pd.DataFrame(extracted_items)
     df["rating"] = pd.to_numeric(df["rating"], errors="coerce")
-    df = df.dropna()  # Remove rows with missing ratings
+    df = df.dropna()  
 
     st.title(f"🍽 {restaurant_name} Menu Analysis Dashboard")
 
