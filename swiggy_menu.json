@@ -1,0 +1,944 @@
+[
+    {
+        "name": "Kaju Katli",
+        "price": 245.0,
+        "rating": "4.7",
+        "rating_count": "1705"
+    },
+    {
+        "name": "Milk Cake",
+        "price": 140.0,
+        "rating": "4.6",
+        "rating_count": "1552"
+    },
+    {
+        "name": "Boondi Laddu",
+        "price": 130.0,
+        "rating": "4.6",
+        "rating_count": "1248"
+    },
+    {
+        "name": "Besan Chikki",
+        "price": 140.0,
+        "rating": "4.7",
+        "rating_count": "428"
+    },
+    {
+        "name": "Gulab Jamun",
+        "price": 130.0,
+        "rating": "4.4",
+        "rating_count": "458"
+    },
+    {
+        "name": "Doodh Katli",
+        "price": 140.0,
+        "rating": "4.8",
+        "rating_count": "613"
+    },
+    {
+        "name": "Keshar Peda",
+        "price": 140.0,
+        "rating": "4.6",
+        "rating_count": "478"
+    },
+    {
+        "name": "Besan Laddu",
+        "price": 140.0,
+        "rating": "4.5",
+        "rating_count": "410"
+    },
+    {
+        "name": "Honey Basket",
+        "price": 350.0,
+        "rating": "4.9",
+        "rating_count": "22"
+    },
+    {
+        "name": "Makkhan Bada",
+        "price": 140.0,
+        "rating": "4.6",
+        "rating_count": "82"
+    },
+    {
+        "name": "Mathura Peda",
+        "price": 130.0,
+        "rating": "4.6",
+        "rating_count": "928"
+    },
+    {
+        "name": "Gujiya",
+        "price": 160.0,
+        "rating": "4.5",
+        "rating_count": "189"
+    },
+    {
+        "name": "Shahi Doda",
+        "price": 160.0,
+        "rating": "4.4",
+        "rating_count": "207"
+    },
+    {
+        "name": "Mango Cutlet",
+        "price": 140.0,
+        "rating": "4.6",
+        "rating_count": "265"
+    },
+    {
+        "name": "Sohan Papadi",
+        "price": 130.0,
+        "rating": "4.3",
+        "rating_count": "144"
+    },
+    {
+        "name": "Pista Coconut",
+        "price": 140.0,
+        "rating": "4.0",
+        "rating_count": "61"
+    },
+    {
+        "name": "Kala Jamun",
+        "price": 135.0,
+        "rating": "4.1",
+        "rating_count": "101"
+    },
+    {
+        "name": "Mawa Kachori",
+        "price": 160.0,
+        "rating": "4.7",
+        "rating_count": "135"
+    },
+    {
+        "name": "Gulkand Barfi",
+        "price": 160.0,
+        "rating": "4.5",
+        "rating_count": "171"
+    },
+    {
+        "name": "Madhu Milan",
+        "price": 300.0,
+        "rating": "4.7",
+        "rating_count": "28"
+    },
+    {
+        "name": "Kaju Katli",
+        "price": 245.0,
+        "rating": "4.7",
+        "rating_count": "1705"
+    },
+    {
+        "name": "Milk Cake",
+        "price": 140.0,
+        "rating": "4.6",
+        "rating_count": "1552"
+    },
+    {
+        "name": "Boondi Laddu",
+        "price": 130.0,
+        "rating": "4.6",
+        "rating_count": "1248"
+    },
+    {
+        "name": "Besan Chikki",
+        "price": 140.0,
+        "rating": "4.7",
+        "rating_count": "428"
+    },
+    {
+        "name": "Gupchup",
+        "price": 160.0,
+        "rating": "4.6",
+        "rating_count": "35"
+    },
+    {
+        "name": "Mix Dry Fruits Sweets",
+        "price": 600.0,
+        "rating": "3.8",
+        "rating_count": "3"
+    },
+    {
+        "name": "Moong Dry fruit Laddu",
+        "price": 160.0,
+        "rating": "4.7",
+        "rating_count": "253"
+    },
+    {
+        "name": "Gulab Jamun",
+        "price": 130.0,
+        "rating": "4.4",
+        "rating_count": "458"
+    },
+    {
+        "name": "Doodh Katli",
+        "price": 140.0,
+        "rating": "4.8",
+        "rating_count": "613"
+    },
+    {
+        "name": "Khopra Pak",
+        "price": 140.0,
+        "rating": "4.4",
+        "rating_count": "417"
+    },
+    {
+        "name": "Keshar Peda",
+        "price": 140.0,
+        "rating": "4.6",
+        "rating_count": "478"
+    },
+    {
+        "name": "Besan Laddu",
+        "price": 140.0,
+        "rating": "4.5",
+        "rating_count": "410"
+    },
+    {
+        "name": "Honey Basket",
+        "price": 350.0,
+        "rating": "4.9",
+        "rating_count": "22"
+    },
+    {
+        "name": "Makkhan Bada",
+        "price": 140.0,
+        "rating": "4.6",
+        "rating_count": "82"
+    },
+    {
+        "name": "Mathura Peda",
+        "price": 130.0,
+        "rating": "4.6",
+        "rating_count": "928"
+    },
+    {
+        "name": "Gujiya",
+        "price": 160.0,
+        "rating": "4.5",
+        "rating_count": "189"
+    },
+    {
+        "name": "Shahi Doda",
+        "price": 160.0,
+        "rating": "4.4",
+        "rating_count": "207"
+    },
+    {
+        "name": "Mix Bengali Sweets ",
+        "price": 140.0,
+        "rating": "4.4",
+        "rating_count": "12"
+    },
+    {
+        "name": "Mango Cutlet",
+        "price": 140.0,
+        "rating": "4.6",
+        "rating_count": "265"
+    },
+    {
+        "name": "Sohan Papadi",
+        "price": 130.0,
+        "rating": "4.3",
+        "rating_count": "144"
+    },
+    {
+        "name": "Dry Fruits Anjeer",
+        "price": 300.0,
+        "rating": "4.4",
+        "rating_count": "40"
+    },
+    {
+        "name": "Pista Coconut",
+        "price": 140.0,
+        "rating": "4.0",
+        "rating_count": "61"
+    },
+    {
+        "name": "Keshar Cutlus",
+        "price": 140.0,
+        "rating": "4.8",
+        "rating_count": "87"
+    },
+    {
+        "name": "Kala Jamun",
+        "price": 135.0,
+        "rating": "4.1",
+        "rating_count": "101"
+    },
+    {
+        "name": "Mawa Kachori",
+        "price": 160.0,
+        "rating": "4.7",
+        "rating_count": "135"
+    },
+    {
+        "name": "Sohan Halwa",
+        "price": 160.0,
+        "rating": "4.6",
+        "rating_count": "94"
+    },
+    {
+        "name": "Kaju Mysore Pak",
+        "price": 210.0,
+        "rating": "4.3",
+        "rating_count": "41"
+    },
+    {
+        "name": "Kesar Kaju Slice",
+        "price": 350.0,
+        "rating": "4.3",
+        "rating_count": "14"
+    },
+    {
+        "name": "Makkhan Petha",
+        "price": 140.0,
+        "rating": "4.3",
+        "rating_count": "110"
+    },
+    {
+        "name": "Gulkand Barfi",
+        "price": 160.0,
+        "rating": "4.5",
+        "rating_count": "171"
+    },
+    {
+        "name": "Rose Dry Fruits Laddu",
+        "price": 300.0,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Madhu Milan",
+        "price": 300.0,
+        "rating": "4.7",
+        "rating_count": "28"
+    },
+    {
+        "name": "Plain Kaju slice",
+        "price": 350.0,
+        "rating": "4.7",
+        "rating_count": "14"
+    },
+    {
+        "name": "Mawa Mix Sweets",
+        "price": 280.0,
+        "rating": "4.7",
+        "rating_count": "23"
+    },
+    {
+        "name": "Mawa Patisa",
+        "price": 160.0,
+        "rating": "4.7",
+        "rating_count": "97"
+    },
+    {
+        "name": "Sada Mysore Pak",
+        "price": 140.0,
+        "rating": "4.5",
+        "rating_count": "99"
+    },
+    {
+        "name": "Mawa Pan",
+        "price": 160.0,
+        "rating": "4.8",
+        "rating_count": "93"
+    },
+    {
+        "name": "Dry Fruits Khajur",
+        "price": 300.0,
+        "rating": "4.6",
+        "rating_count": "12"
+    },
+    {
+        "name": "Keshar Roll",
+        "price": 140.0,
+        "rating": "4.4",
+        "rating_count": "198"
+    },
+    {
+        "name": "Mawa Dilbahar",
+        "price": 160.0,
+        "rating": "4.4",
+        "rating_count": "66"
+    },
+    {
+        "name": "Karachi Halwa",
+        "price": 160.0,
+        "rating": "5.0",
+        "rating_count": "6"
+    },
+    {
+        "name": "Mix Bites",
+        "price": 324.95,
+        "rating": "4.5",
+        "rating_count": "277"
+    },
+    {
+        "name": "Rasmalai",
+        "price": 140.0,
+        "rating": "4.6",
+        "rating_count": "77"
+    },
+    {
+        "name": "Laung Sev",
+        "price": 60.71,
+        "rating": "4.6",
+        "rating_count": "1849"
+    },
+    {
+        "name": "Ratlami sev",
+        "price": 75.89,
+        "rating": "4.7",
+        "rating_count": "2118"
+    },
+    {
+        "name": "Khat Ta Meetha Mixture",
+        "price": 75.89,
+        "rating": "4.6",
+        "rating_count": "833"
+    },
+    {
+        "name": "Charkhi Boondi (200Gm)",
+        "price": 60.71,
+        "rating": "4.4",
+        "rating_count": "4"
+    },
+    {
+        "name": "Methi Mathri (250 Gms)",
+        "price": 84.82,
+        "rating": "4.8",
+        "rating_count": "89"
+    },
+    {
+        "name": "Mini Bhakarvadi (250 gms)",
+        "price": 89.29,
+        "rating": "4.8",
+        "rating_count": "23"
+    },
+    {
+        "name": "Bikaneri Mixture (250 gms)",
+        "price": 75.89,
+        "rating": "4.5",
+        "rating_count": "13"
+    },
+    {
+        "name": "Chatpata Mixture (250 gms)",
+        "price": 75.89,
+        "rating": "4.7",
+        "rating_count": "387"
+    },
+    {
+        "name": "Plain Mathri (250gm)",
+        "price": 93.75,
+        "rating": "4.7",
+        "rating_count": "13"
+    },
+    {
+        "name": "Methi Khasta (200gm)",
+        "price": 71.43,
+        "rating": "4.6",
+        "rating_count": "43"
+    },
+    {
+        "name": "Mini Samosa (250 Gms)",
+        "price": 89.29,
+        "rating": "4.8",
+        "rating_count": "107"
+    },
+    {
+        "name": "Fiki Sev (250Gm)",
+        "price": 71.43,
+        "rating": "4.9",
+        "rating_count": "14"
+    },
+    {
+        "name": "Chivda (150 gms)",
+        "price": 40.18,
+        "rating": "4.5",
+        "rating_count": "210"
+    },
+    {
+        "name": "Shahi Mixture (250 gms)",
+        "price": 191.96,
+        "rating": "4.7",
+        "rating_count": "16"
+    },
+    {
+        "name": "Mini Kachori (250 Gms)",
+        "price": 89.29,
+        "rating": "4.3",
+        "rating_count": "41"
+    },
+    {
+        "name": "Shakkar Pare (250gm)",
+        "price": 71.43,
+        "rating": "4.7",
+        "rating_count": "14"
+    },
+    {
+        "name": "Charkha Mixture",
+        "price": 75.89,
+        "rating": "4.7",
+        "rating_count": "56"
+    },
+    {
+        "name": "Tripal Laung Sev",
+        "price": 56.0,
+        "rating": "4.9",
+        "rating_count": "12"
+    },
+    {
+        "name": "Kaju Mixture (250gm)",
+        "price": 116.07,
+        "rating": "4.7",
+        "rating_count": "5"
+    },
+    {
+        "name": "Lahsun Bhakharwadi (250gm)",
+        "price": 93.75,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Sangam Mixture (250gm)",
+        "price": 75.89,
+        "rating": "4.8",
+        "rating_count": "4"
+    },
+    {
+        "name": "Charkha Fariyali Mixture (250 Gms)",
+        "price": 80.36,
+        "rating": "4.1",
+        "rating_count": "16"
+    },
+    {
+        "name": "Jadui Bhujiya Sev",
+        "price": 71.43,
+        "rating": "4.8",
+        "rating_count": "14"
+    },
+    {
+        "name": "Malwa Mixture",
+        "price": 75.89,
+        "rating": "4.9",
+        "rating_count": "8"
+    },
+    {
+        "name": "Pyaz Chivda (200 Gms)",
+        "price": 60.71,
+        "rating": "4.6",
+        "rating_count": "31"
+    },
+    {
+        "name": "Punjabi Mixture 250Gms",
+        "price": 75.89,
+        "rating": "4.8",
+        "rating_count": "44"
+    },
+    {
+        "name": "Fiki Boondi (200Gm)",
+        "price": 60.71,
+        "rating": "4.3",
+        "rating_count": "3"
+    },
+    {
+        "name": "Sabudana Fariyali Mixture",
+        "price": 75.89,
+        "rating": "4.1",
+        "rating_count": "9"
+    },
+    {
+        "name": "Plain Kate (200gm)",
+        "price": 75.89,
+        "rating": "3.5",
+        "rating_count": "4"
+    },
+    {
+        "name": "Lajawab Mixture (250gm)",
+        "price": 75.89,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Moong Mogar (250gm)",
+        "price": 75.89,
+        "rating": "5.0",
+        "rating_count": "9"
+    },
+    {
+        "name": "Tasty Dana (250gm)",
+        "price": 75.89,
+        "rating": "4.2",
+        "rating_count": "13"
+    },
+    {
+        "name": "Phoolbadi (200 gms)",
+        "price": 75.89,
+        "rating": "4.4",
+        "rating_count": "53"
+    },
+    {
+        "name": "Rajgirs Sev (250gms)",
+        "price": 76.79,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Aloo Laccha (250gms)",
+        "price": 84.82,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Singhada Sabudana (250gms)",
+        "price": 75.89,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Meetha Fariyali Mixture (250 Gms)",
+        "price": 80.36,
+        "rating": "4.6",
+        "rating_count": "15"
+    },
+    {
+        "name": "Dal Moth (250gm)",
+        "price": 66.07,
+        "rating": "4.9",
+        "rating_count": "13"
+    },
+    {
+        "name": "Murmura Bhel (250 gms)",
+        "price": 75.89,
+        "rating": "4.3",
+        "rating_count": "47"
+    },
+    {
+        "name": "Madrasi Mixture (250gm)",
+        "price": 75.89,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Classic Dalmoth (250gm)",
+        "price": 75.89,
+        "rating": "5.0",
+        "rating_count": "5"
+    },
+    {
+        "name": "Navrang Mixture (250gm)",
+        "price": 89.29,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Chana Dal Masala (250gms)",
+        "price": 75.89,
+        "rating": "4.3",
+        "rating_count": "7"
+    },
+    {
+        "name": "Lal Makka Mixture (250gm)",
+        "price": 75.89,
+        "rating": "5.0",
+        "rating_count": "4"
+    },
+    {
+        "name": "Tomato Crackle(250gms)",
+        "price": 75.89,
+        "rating": "5.0",
+        "rating_count": "4"
+    },
+    {
+        "name": "Wifi Mixure (200Gms)",
+        "price": 64.76,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Achari Mathri 200gm",
+        "price": 62.5,
+        "rating": "4.2",
+        "rating_count": "56"
+    },
+    {
+        "name": "Maithi Cutlet (250gm)",
+        "price": 98.21,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Super Bhakharwadi (200gm)",
+        "price": 73.21,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Ujjaini Sev",
+        "price": 75.89,
+        "rating": "4.8",
+        "rating_count": "863"
+    },
+    {
+        "name": "Chocolate Cake ",
+        "price": 430.0,
+        "rating": "4.3",
+        "rating_count": "10"
+    },
+    {
+        "name": "Butterscotch Cake",
+        "price": 400.0,
+        "rating": "3.5",
+        "rating_count": "7"
+    },
+    {
+        "name": "Black Forest Cake",
+        "price": 430.0,
+        "rating": "4.2",
+        "rating_count": "110"
+    },
+    {
+        "name": "Pineapple Cake",
+        "price": 400.0,
+        "rating": "4.5",
+        "rating_count": "103"
+    },
+    {
+        "name": "Kaju Katli  ( 8 pcs )",
+        "price": 88.0,
+        "rating": "5.0",
+        "rating_count": "6"
+    },
+    {
+        "name": "Dry Fruits Moong Laddu ( 2 pcs ) ",
+        "price": 57.0,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Mawa Bati ( 2 pcs ) ",
+        "price": 60.0,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Bangali Sweets ( 2 pcs) ",
+        "price": 50.0,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Milk Cake  ( 2 pcs ) ",
+        "price": 51.0,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Kala Jamun  ( 2 pcs ) ",
+        "price": 60.0,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Dry Fruits Besan Laddu ( 2 pcs ) ",
+        "price": 48.0,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Dry Fruits Chikki  ( 5 pcs )",
+        "price": 60.0,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Dry Fruits Shahi Doda ( 2 pcs ) ",
+        "price": 45.0,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Sangam Barfi  ( 4 pcs) ",
+        "price": 64.0,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Mix Bites  (4 pcs ) ",
+        "price": 90.0,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Fruit Bites  ( 4 pcs ) ",
+        "price": 90.0,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Kesar Pista Cookies  (250 gms)",
+        "price": 100.0,
+        "rating": "4.7",
+        "rating_count": "133"
+    },
+    {
+        "name": "Choco Chips Cookies",
+        "price": 84.75,
+        "rating": "4.7",
+        "rating_count": "4"
+    },
+    {
+        "name": "Almond Coconut Cookies  (250 gms)",
+        "price": 84.75,
+        "rating": "4.8",
+        "rating_count": "83"
+    },
+    {
+        "name": "Aata Ajwain Biscuit",
+        "price": 84.75,
+        "rating": "4.6",
+        "rating_count": "10"
+    },
+    {
+        "name": "Milk Kaju Cookies (250 gms)",
+        "price": 135.59,
+        "rating": "4.9",
+        "rating_count": "29"
+    },
+    {
+        "name": "Jeera Cookies  (250 gms)",
+        "price": 84.75,
+        "rating": "4.6",
+        "rating_count": "50"
+    },
+    {
+        "name": "Fruit Biscuit",
+        "price": 84.75,
+        "rating": "4.8",
+        "rating_count": "5"
+    },
+    {
+        "name": "Wheat Cookies  (250 gms)",
+        "price": 80.51,
+        "rating": "4.7",
+        "rating_count": "50"
+    },
+    {
+        "name": "Oats Cookies [250 gms]",
+        "price": 110.17,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Ragi cookies [250 gm]",
+        "price": 110.17,
+        "rating": "4.1",
+        "rating_count": "4"
+    },
+    {
+        "name": "Rasgulla (1pcs)",
+        "price": 18.0,
+        "rating": "4.7",
+        "rating_count": "245"
+    },
+    {
+        "name": "Lassi (Per Glass)",
+        "price": 48.48,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Shikanji (Per Glass)",
+        "price": 68.57,
+        "rating": "4.5",
+        "rating_count": "150"
+    },
+    {
+        "name": "Dal Kachori ( 1 Pcs)",
+        "price": 22.86,
+        "rating": "4.3",
+        "rating_count": "461"
+    },
+    {
+        "name": "Samosa",
+        "price": 22.86,
+        "rating": "4.4",
+        "rating_count": "3"
+    },
+    {
+        "name": "Pani Puri Khakhra",
+        "price": 90.0,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Lehsun Khakhra",
+        "price": 90.0,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Zeera Ajwain Khakhra",
+        "price": 90.0,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Heeng Chatni Khakhra",
+        "price": 90.0,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Achari Khakhra",
+        "price": 90.0,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Maithi Khakhra",
+        "price": 90.0,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Sada Khakhra",
+        "price": 90.0,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Zeerawan Khakhra",
+        "price": 90.0,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Masala Khakhra",
+        "price": 90.0,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Pav Bhaji Khakhra",
+        "price": 90.0,
+        "rating": null,
+        "rating_count": null
+    },
+    {
+        "name": "Aloo Chips",
+        "price": 33.93,
+        "rating": "4.5",
+        "rating_count": "269"
+    },
+    {
+        "name": "Dal Bafla Thali",
+        "price": 361.9,
+        "rating": "4.7",
+        "rating_count": "80"
+    },
+    {
+        "name": "Mini Dal Bafla",
+        "price": 266.67,
+        "rating": "5.0",
+        "rating_count": "3"
+    }
+]
