@@ -223,3 +223,6 @@ if response.status_code == 200:
 else:
     print(f"Failed to fetch data. Status Code: {response.status_code}")
 
+
+
+
