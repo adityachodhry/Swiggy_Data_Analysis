@@ -224,4 +224,3 @@ else:
     print(f"Failed to fetch data. Status Code: {response.status_code}")
 
 
-
